@@ -2,7 +2,6 @@
 import { Hero } from "../components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import Clients from "@/components/Clients";
-import Approach from "@/components/Approach";
 import { Navbar } from "@/components/Navbar";
 import About from "../components/About";
 import Tech from "@/components/Tech";
