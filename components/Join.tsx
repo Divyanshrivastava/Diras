@@ -45,7 +45,7 @@ const Join= () => {
   const maskImage = useMotionTemplate`radial-gradient(50% 50% at ${mouseX}px ${mouseY}px, black, transparent)`;
 
   return (
-    <section id='join' className="bg-black text-white p-10  py-10">
+    <section className="bg-black text-white p-10  py-10" id="join">
       <div className="container">
         <motion.div
           ref={borderedDivRef}
