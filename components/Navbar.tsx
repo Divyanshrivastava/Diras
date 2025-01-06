@@ -10,32 +10,34 @@ export const Navbar = () => {
           </div>
           <nav className="hidden sm:flex gap-6 items-center">
             <a
-              href="#"
+              href="#hero"
               className="text-opacity-60 text-white hover:text-opacity-100 transition"
             >
               Home
             </a>
             <a
-              href="#"
+              href="#about"
               className="text-opacity-60 text-white hover:text-opacity-100 transition"
             >
               About
             </a>
             <a
-              href="#"
+              href="#projects"
               className="text-opacity-60 text-white hover:text-opacity-100 transition"
             >
               Projects
             </a>
             <a
-              href="#"
+              href="#tech"
               className="text-opacity-60 text-white hover:text-opacity-100 transition"
             >
-              Contact
+              Tech
             </a>
-            <button className="bg-white py-2 px-4 rounded-lg text-black">
-              Get Started
-            </button>
+            <a href ='#join'>
+              <button className="bg-white py-2 px-4 rounded-lg text-black">
+                 Get Started
+              </button>
+            </a>
           </nav>
         </div>
       </div>
