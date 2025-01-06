@@ -9,7 +9,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="bg-black text-white py-10">
+    <section id='about' className="bg-black text-white py-10">
       <div className="container mx-auto px-5">
         <p className="sm:text-[18px] text-[14px] text-purple uppercase tracking-wider text-center">
           Introduction
@@ -24,11 +24,11 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 justify-items-center mt-8 border border-neutral-700">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 justify-items-center mt-8">
           {workExperience.map((card, index) => (
             <div
               key={index}
-              className="h-80 w-65 flex flex-col justify-between items-center p-6 text-white bg-black shadow-md"
+              className="h-80 w-65 flex flex-col justify-between items-center p-6 text-white bg-black shadow-md  border border-neutral-700"
             >
               {/* Image centered at the top */}
               <img
