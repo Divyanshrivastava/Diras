@@ -2,7 +2,7 @@
 
 import { workExperience } from '@/data'; // Ensure the services data is in the correct path
 import React from 'react';
-import { CardSpotlight } from './ui/CardSpotlight';
+
 
 
 
@@ -26,7 +26,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 justify-items-center mt-8">
           {workExperience.map((card, index) => (
-            <CardSpotlight
+            <div
               key={index}
               className="h-80 w-65 flex flex-col justify-between items-center p-6 text-white bg-black shadow-md"
             >
@@ -44,7 +44,7 @@ const About = () => {
               <p className="text-sm text-neutral-400 text-center relative">
                 {card.desc}
               </p>
-            </CardSpotlight>
+            </div>
           ))}
         </div>
       </div>
