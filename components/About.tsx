@@ -24,7 +24,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 justify-items-center mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 justify-items-center mt-8 border border-neutral-700">
           {workExperience.map((card, index) => (
             <div
               key={index}
