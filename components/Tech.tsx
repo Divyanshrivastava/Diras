@@ -75,7 +75,7 @@ const Tech = () => {
   };
 
   return (
-    <section className="bg-black text-white py-10">
+    <section id='tech' className="bg-black text-white py-10">
       <div className="container mx-auto px-5">
         <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
           {" "}
